@@ -1,16 +1,10 @@
 {
-  "name": "proman",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.24.0",
-  "devDependencies": {
-    "turbo": "^2.6.3"
-  }
+    "name": "proman",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "pnpm -r --parallel dev",
+        "build": "pnpm -r build",
+        "start": "pnpm -r start"
+    }
 }
