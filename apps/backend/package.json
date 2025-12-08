@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nest start --watch",
     "build": "nest build",
-    "start": "node dist/main"
+    "start": "node dist/main",
+    "clean": "rm -rf dist"
   },
   "keywords": [],
   "author": "",

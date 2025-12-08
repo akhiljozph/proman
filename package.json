@@ -2,9 +2,18 @@
     "name": "proman",
     "version": "1.0.0",
     "private": true,
+    "packageManager": "pnpm@10.24.0",
     "scripts": {
-        "dev": "pnpm -r --parallel dev",
-        "build": "pnpm -r build",
-        "start": "pnpm -r start"
+        "dev": "turbo run dev",
+        "build": "turbo run build",
+        "start": "turbo run start",
+        "generate": "turbo run generate",
+        "migrate": "turbo run migrate",
+        "studio": "turbo run studio",
+        "clean": "turbo run clean",
+        "db:setup": "turbo run generate migrate"
+    },
+    "devDependencies": {
+        "turbo": "^2.6.3"
     }
 }
