@@ -11,6 +11,9 @@ async function bootstrap() {
 
     app.enableCors();
     await app.listen(port);
-    console.log(`API running on http://localhost:${port}`);
+
+    // TODO: Implement logger package and host it in npmjs.
+    console.info(`API running on http://localhost:${port}`);
 }
+
 bootstrap();

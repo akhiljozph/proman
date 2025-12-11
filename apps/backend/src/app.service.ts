@@ -2,7 +2,13 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-    getHello(): string {
-        return 'Proman API is running!';
+    getServiceHealthDetails(): any {
+        const healthResult = {
+            status: 'OK',
+            message: 'ProMan backend service is working!',
+            timestamp: new Date().toISOString()
+        };
+
+        return healthResult;
     }
 }
