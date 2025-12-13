@@ -39,7 +39,7 @@ async function bootstrap() {
     const document = SwaggerModule.createDocument(app, config);
     SwaggerModule.setup('api/docs', app, document, {
         customSiteTitle: 'ProMan API Docs',
-        customfavIcon: 'https://nestjs.com/img/logo_text.svg',
+        customfavIcon: '/public/proman.ico',
         customJs: [
             'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.15.5/swagger-ui-bundle.min.js',
             'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.15.5/swagger-ui-standalone-preset.min.js',
