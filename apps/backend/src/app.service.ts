@@ -5,7 +5,7 @@ export class AppService {
     getServiceHealthDetails(): any {
         const healthResult = {
             status: 'OK',
-            message: 'ProMan backend service is working!',
+            message: 'Hey, why are you doubting me? I\'m here!',
             timestamp: new Date().toISOString()
         };
 
