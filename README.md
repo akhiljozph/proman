@@ -1,6 +1,6 @@
 # Proman - Project Management System
 
-A full-stack monorepo project using React, NestJS, Prisma, PostgreSQL, Redis, and Docker.
+A full-stack monorepo project for project management using React, NestJS, Prisma, PostgreSQL, Redis, and Docker.
 
 ## Prerequisites
 
